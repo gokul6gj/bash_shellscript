@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Linux_User_Account _Report_Generator–Bash_Script_Project
+
 # Prompt the user to enter a username
 echo "Enter your user Name: "
 read user
