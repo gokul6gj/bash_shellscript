@@ -27,7 +27,7 @@ then
     disk_usage=$(du -sh "$home_dir" 2>/dev/null | cut -f1)
 
     # Write all collected details into a report file
-    echo "User: $user" > user_report.txt # > This will Redirect data to file if file doesn't exist i will create itself.
+    echo "User: $user" > user_report.txt # > This will Redirect data to file if file doesn't exist it will create itself.
     echo "Home Directory: $home_dir" >> user_report.txt
     echo "Default Shell: $default_shell" >> user_report.txt
     echo "UID: $uid" >> user_report.txt
